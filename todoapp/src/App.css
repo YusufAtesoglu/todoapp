@@ -67,7 +67,7 @@
     text-transform: capitalize;
   }
   /* Mobil cihazlar için medya sorgusu */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1080px) {
   .todo-button {
       background: #6a3093; /* Arka plan rengini koru */
       height: 50%;
