@@ -1,6 +1,6 @@
 import React from 'react';
 import Todo from './Todo';
-
+import "../../src/App.css"
 const TodoList = ({ todos }) => {
   return (
     <div className="todo-list">

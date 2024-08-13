@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import { GrFormClose, GrFormEdit, GrFormCheckmark } from 'react-icons/gr';
 import { useTodoLayerValue } from '../context/TodoContext';
+import "../../src/App.css"
 const Todo = ({ todo }) => {
   const [{}, dispatch] = useTodoLayerValue();
   const [editable, setEditable] = useState(false);

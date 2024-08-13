@@ -39,7 +39,7 @@ const App = () => {
           type="text"
           value={content}
           className="todo-input"
-          placeholder="Ne yapacaksın bakalım?"
+          placeholder="Ne yapacaksın ?"
           ref={inputRef}
           onChange={(event) => setContent(event.target.value)}
         />
